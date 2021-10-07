@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap');
+body{
+    font-family: 'Merriweather', serif;
+    scroll-behavior: smooth;
+}
+.logo-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.bg-info ,.btn-info{
+    background-color: rgb(50, 153, 179) !important;
+}
+.text-info{
+color: rgb(50, 153, 179) !important;;
+}
+
+
+/* landing page section */
+.landing-wrapper .text-warning{
+    color: #d59034 !important;
+}
+.landing-section{
+    background: white url('/img/bg1.jpg') no-repeat scroll center;
+    background-size: cover;
+    height: 100vh;
+}
+.landing-wrapper{
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+}
+.landing-wrapper h2{
+    font-size: 70px;
+}
+.landing-wrapper p{
+    font-size: 20px;
+}
+.fa-play-circle{
+    color: rgb(50, 153, 179) !important;;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    animation: anim1 1s infinite linear;
+}
+@keyframes anim1{
+    0% , 100%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.05,1.05);
+       box-shadow: 0 0 10px white;
+       border: 3px dotted white;
+    }
+}
+
+/* gallery section */
+.gallery-img{
+    border-radius: 50px;
+    border: 5px solid rgb(50, 153, 179) !important;
+    box-shadow: 0 0 10px black;
+    transition: all 0.5s;
+}
+.gallery-img:hover{
+    transform: scale(1.05,1.05);
+}
+.hovbtn{
+
+}
+.hovbtn:hover{
+    box-shadow: 0 0 10px rgb(50, 153, 179) !important;
+}
+
+/* trainer section */
+.trainer-img{
+    margin-top: -50px;
+    box-shadow: 0 0 10px rgb(50, 153, 179) !important;
+}
+.trainer-card{
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.trainer-card:hover{
+    color: rgb(50, 153, 179) !important;
+    background-color: rgb(34, 67, 75) !important;;
+   transform: translateY(-20px);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(50, 153, 179) !important;
+}
+
+/* google map */
+.google-map{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
