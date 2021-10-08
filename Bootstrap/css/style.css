@@ -91,3 +91,12 @@ color: rgb(50, 153, 179) !important;;
     border-radius: 10px;
     box-shadow: 0 0 10px black;
 }
+
+
+/* media qury */
+@media (min-width : 50px) and (max-width : 500px){
+    iframe{
+        width: 160px;
+        height: 100px;
+    }
+}
